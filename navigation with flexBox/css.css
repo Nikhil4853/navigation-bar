@@ -1,0 +1,46 @@
+   * {
+       margin: 0px;
+   }
+   
+   .navigation {
+       left: 0;
+       top: 0;
+       right: 0;
+       padding: 2px 10px;
+       background-color: rgb(181, 243, 233);
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 10px;
+       position: fixed;
+   }
+   
+   .logo {
+       margin-left: 20px;
+       width: 40px;
+       height: 40px;
+       border-radius: 20px;
+       background-color: white;
+   }
+   
+   .logo:hover {
+       cursor: pointer;
+   }
+   
+   .navUl {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       align-content: center;
+       gap: 3px;
+   }
+   
+   li {
+       text-align: center;
+       list-style: none;
+       border-radius: 2px;
+   }
+   
+   button:hover {
+       cursor: pointer;
+   }
